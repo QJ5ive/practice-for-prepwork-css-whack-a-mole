@@ -3,16 +3,23 @@
   position: relative;
   height: 482px;
   width: 640px;
+  display: inline-block;
+  overflow: hidden;
 }
 .wgs__mole-head{
   position: absolute;
   height: 356px;
   width: 376px;
+  left: 109px;
 }
 .wgs__dirt-pile{
   position: absolute;
   height: 220px;
   width: 640px;
+  top: 262px;
+}
+.wgs__mole-head--hidden{
+  margin-top: 482px;
 }
 
 
